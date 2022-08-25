@@ -7,7 +7,13 @@ def generate_hashtag(s):
     x2 =[]
     z = ""
     i = 0
-    print (x)
+    #y3 = 0
+    #print (x)
+    #while y3 < y :
+     # if x[y3] == '\0':
+      #  x[y3] = x[y3][1::]
+       # print (x[y3])
+      #y3 = y3+1  
     while y2 < y:
       if (x[y2][0].islower()):
        p = x[y2][0].upper()
