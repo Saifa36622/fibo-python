@@ -7,11 +7,14 @@ def generate_hashtag(s):
     x2 =[]
     z = ""
     i = 0
-    while y > y2:
+    print (x)
+    while y2 < y:
       if (x[y2][0].islower()):
        p = x[y2][0].upper()
-       print (p)
+       x[y2] = x[y2].replace(x[y2][0],p)
+       #x[y2] = x[y2].replace(x[y2][0],x[y2][0].upper())
       x2.append(x[y2])
+      print(x[y2])
       y2 = y2 + 1
 
     while i < len(x2) :
@@ -20,3 +23,5 @@ def generate_hashtag(s):
     return("#" + z)
 print(generate_hashtag("hello there"))
 print(generate_hashtag(""))
+#print(generate_hashtag("Codewars      "))
+
