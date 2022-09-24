@@ -7,4 +7,4 @@ def f(n):
     x += 2
     y2 = y + y2
   return y2
-print (f(3))
+print (f(4))
