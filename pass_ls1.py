@@ -18,5 +18,5 @@ def easyIndex2(ls1,ls2):
         num2 += ls1[j]
     total.append(num2)
     return total
-# print(easyIndex2([4, 8, 1, 5], [3, 1, 0]))
+print(easyIndex2([4, 8, 1, 5], [3, 1, 0]))
 # print(easyIndex2([5, 3, 10, 8], [2,1]))

@@ -19,4 +19,3 @@ def f(x):
 
     total += "".join(map(str,z))
     return total
-print(f(4))
